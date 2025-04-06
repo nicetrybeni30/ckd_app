@@ -6,8 +6,8 @@ This project is a Django-based web app for predicting Chronic Kidney Disease (CK
 
 ## ⚙️ Installation Steps
 
-```bash
 Step 1: Clone the Repository
+```bash
 git clone https://github.com/nicetrybeni30/ckd_app.git
 cd ckd_app
 ```
