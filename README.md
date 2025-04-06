@@ -12,9 +12,8 @@ git clone https://github.com/nicetrybeni30/ckd_app.git
 cd ckd_app
 ```
 
-```bash
 Step 2: Create a Virtual Environment
-
+```bash
 Windows:
 python -m venv venv
 venv\Scripts\activate
@@ -24,33 +23,34 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-```bash
 Step 3: Install Project Dependencies
+```bash
 pip install -r requirements.txt
 ```
 
-```bash
 Step 4: Apply Migrations
+```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
+Step 5: Load the Model
 ```bash
-Step 5: Load the Model (if required)
 Copy and paste the model files (model.h5, scaler.pkl, fake_scaler.pkl) into the "model/" folder
 ```
 
-```bash
 Step 6: Run the Development Server
+```bash
 python manage.py runserver
 ```
 
-```bash
 Step 7: Open in Browser
+```bash
 Visit http://127.0.0.1:8000 in your browser
 ```
 
+Author:
 ```bash
-Author: Beni
+ - Beni
 ```
 
